@@ -229,7 +229,6 @@ namespace FINAL_SIMULACION
             }
 
             dg_colas.DataSource = tabla_iteraciones;
-            ModificarColumnas();
         }
 
         private void ModificarColumnas()

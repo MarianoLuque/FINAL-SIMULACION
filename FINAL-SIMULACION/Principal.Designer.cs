@@ -31,7 +31,6 @@ namespace FINAL_SIMULACION
         private void InitializeComponent()
         {
             this.txt_cantidad_minutos = new System.Windows.Forms.MaskedTextBox();
-            this.btn_cerrar_programa = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_simular = new System.Windows.Forms.Button();
@@ -49,6 +48,7 @@ namespace FINAL_SIMULACION
             this.txt_cantidad_pacientes = new System.Windows.Forms.MaskedTextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.btn_cerrar_programa = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -62,20 +62,6 @@ namespace FINAL_SIMULACION
             this.txt_cantidad_minutos.Size = new System.Drawing.Size(169, 29);
             this.txt_cantidad_minutos.TabIndex = 17;
             this.txt_cantidad_minutos.ValidatingType = typeof(int);
-            // 
-            // btn_cerrar_programa
-            // 
-            this.btn_cerrar_programa.BackColor = System.Drawing.Color.Transparent;
-            this.btn_cerrar_programa.BackgroundImage = global::FINAL_SIMULACION.Properties.Resources.cerrar;
-            this.btn_cerrar_programa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cerrar_programa.FlatAppearance.BorderSize = 0;
-            this.btn_cerrar_programa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cerrar_programa.Location = new System.Drawing.Point(736, 10);
-            this.btn_cerrar_programa.Name = "btn_cerrar_programa";
-            this.btn_cerrar_programa.Size = new System.Drawing.Size(43, 43);
-            this.btn_cerrar_programa.TabIndex = 16;
-            this.btn_cerrar_programa.UseVisualStyleBackColor = false;
-            this.btn_cerrar_programa.Click += new System.EventHandler(this.btn_cerrar_programa_Click);
             // 
             // label2
             // 
@@ -240,7 +226,7 @@ namespace FINAL_SIMULACION
             // txt_cantidad_minutos_entre_pacientes
             // 
             this.txt_cantidad_minutos_entre_pacientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.txt_cantidad_minutos_entre_pacientes.Location = new System.Drawing.Point(287, 68);
+            this.txt_cantidad_minutos_entre_pacientes.Location = new System.Drawing.Point(343, 68);
             this.txt_cantidad_minutos_entre_pacientes.Mask = "99";
             this.txt_cantidad_minutos_entre_pacientes.Name = "txt_cantidad_minutos_entre_pacientes";
             this.txt_cantidad_minutos_entre_pacientes.Size = new System.Drawing.Size(85, 29);
@@ -250,7 +236,7 @@ namespace FINAL_SIMULACION
             // txt_cantidad_pacientes
             // 
             this.txt_cantidad_pacientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.txt_cantidad_pacientes.Location = new System.Drawing.Point(287, 37);
+            this.txt_cantidad_pacientes.Location = new System.Drawing.Point(343, 37);
             this.txt_cantidad_pacientes.Mask = "99";
             this.txt_cantidad_pacientes.Name = "txt_cantidad_pacientes";
             this.txt_cantidad_pacientes.Size = new System.Drawing.Size(85, 29);
@@ -276,6 +262,20 @@ namespace FINAL_SIMULACION
             this.label26.Size = new System.Drawing.Size(257, 24);
             this.label26.TabIndex = 19;
             this.label26.Text = "Cantidad de pacientes diarios";
+            // 
+            // btn_cerrar_programa
+            // 
+            this.btn_cerrar_programa.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cerrar_programa.BackgroundImage = global::FINAL_SIMULACION.Properties.Resources.cerrar;
+            this.btn_cerrar_programa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cerrar_programa.FlatAppearance.BorderSize = 0;
+            this.btn_cerrar_programa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cerrar_programa.Location = new System.Drawing.Point(736, 10);
+            this.btn_cerrar_programa.Name = "btn_cerrar_programa";
+            this.btn_cerrar_programa.Size = new System.Drawing.Size(43, 43);
+            this.btn_cerrar_programa.TabIndex = 16;
+            this.btn_cerrar_programa.UseVisualStyleBackColor = false;
+            this.btn_cerrar_programa.Click += new System.EventHandler(this.btn_cerrar_programa_Click);
             // 
             // Principal
             // 
